@@ -15,5 +15,4 @@ Podemos deducir que en este juego la posesion estuvo mas concentrada en una cons
 
 Podemos ver que Hector Moreno tuvo una gran participacion en este partido, seguido de Cesar Montes y Luis Chavez, pero en mucho menor proporcion. Ochoa le realizo muchos pases a Moreno, haciendo una conexion muy fuerte, y solo con esto nos damos cuenta que en este partido Mexico tambien estaba jugando mucho en el area baja del campo nuevamente.
 Al observar, vemos que en el partido de Mexico contra Polonia el grafo muestra otra vez, al igual que contra Argentina, que la circulacion del balon estaba muy concentrada con los defensas y en el medio campo. Moreno tuvo muchas conexiones con jugadores de mediocampo como Edson Alvares y Luis Chavez, mostrando nuevamente una conducta donde Mexico utilizo principalmenet a sus defensores y mediocampistas para manetener la circulacion del balon y concentrandose en el juego desde la parte de atras, en comparacion con los jugadores de ataque que casi no tocan el balon.
-El grafo representa un estilo de juego basado en la contruccion desde la sona de atras hacia el medio campo, al iguall que contra Argentina.
-
+El grafo representa un estilo de juego basado en la contruccion desde la sona de atras hacia el medio campo, al igual que contra Argentina.
