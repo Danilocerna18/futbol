@@ -46,27 +46,27 @@ plt.figure(figsize=(10, 8))
 # Definimos coordenadas fijas en la cancha (Formación 5-3-2)
 posiciones = {
     # Portero
-    'Francisco Guillermo Ochoa Magaña': (0, -0.85),
+    "Francisco Guillermo Ochoa Magaña": (0, -0.85),
     
     # Defensa
-    'Jesús Daniel Gallardo Vasconcelos': (-0.75, -0.45),
-    'Héctor Alfredo Moreno Herrera': (-0.35, -0.60),
-    'César Jasib Montes Castro': (0, -0.60),
-    'Néstor Alejandro Araújo Razo': (0.35, -0.60),
-    'Kevin Nahin Álvarez Campos': (0.75, -0.45),
+    "Jesús Daniel Gallardo Vasconcelos": (-0.75, -0.45),
+    "Héctor Alfredo Moreno Herrera": (-0.35, -0.60),
+    "César Jasib Montes Castro": (0, -0.60),
+    "Néstor Alejandro Araújo Razo": (0.35, -0.60),
+    "Kevin Nahin Álvarez Campos": (0.75, -0.45),
     
     # Mediocampo
-    'Luis Gerardo Chávez Magallón': (-0.40, -0.10),
-    'Héctor Miguel Herrera López': (0, -0.15),
-    'José Andrés Guardado Hernández': (0.40, -0.10),
-    'Érick Gabriel Gutiérrez Galaviz': (0.45, -0.25),
+    "Luis Gerardo Chávez Magallón": (-0.40, -0.10),
+    "Héctor Miguel Herrera López": (0, -0.15),
+    "José Andrés Guardado Hernández": (0.40, -0.10),
+    "Érick Gabriel Gutiérrez Galaviz": (0.45, -0.25),
     
     # Delanteros
-    'Ernesto Alexis Vega Rojas': (-0.35, 0.45),
-    'Hirving Rodrigo Lozano Bahena': (0.35, 0.45),
-    'Raúl Alonso Jiménez Rodríguez': (0, 0.75),
-    'Carlos Uriel Antuna Romero': (0.70, 0.30),
-    'Roberto Carlos Alvarado Hernández': (-0.70, 0.30)
+    "Ernesto Alexis Vega Rojas": (-0.35, 0.45),
+    "Hirving Rodrigo Lozano Bahena": (0.35, 0.45),
+    "Raúl Alonso Jiménez Rodríguez": (0, 0.75),
+    "Carlos Uriel Antuna Romero": (0.70, 0.30),
+    "Roberto Carlos Alvarado Hernández": (-0.70, 0.30)
 }
 
 # Acortamos los nombres para que quepan en los nodos
