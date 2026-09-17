@@ -59,5 +59,4 @@ nx.draw(
 )
 
 plt.title("México vs Argentina - Pases")
-plt.axis("off")
 plt.show()
