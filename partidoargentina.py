@@ -41,16 +41,23 @@ print("Conexiones:", grafo.number_of_edges())
 
 import matplotlib.pyplot as plt
 
-# Dibujjamos el grafo
-posiciones = nx.spring_layout(grafo, seed=42, k=2)
+# Dibujamos el grafo
+plt.figure(figsize=(8, 10))
+
+posiciones = nx.spring_layout(grafo, seed=42, k=3)
 
 nx.draw(
     grafo,
     posiciones,
     with_labels=True,
-    node_size=1500,
+    node_size=1200,
+    node_color="lightgreen",
     arrows=True,
-    width=[grafo[u][v]["peso"] / 2 for u, v in grafo.edges()]
+    arrowsize=15,
+    width=[grafo[u][v]["peso"] / 2 for u, v in grafo.edges()],
+    font_size=8
 )
 
+plt.title("México vs Argentina - Pases")
+plt.axis("off")
 plt.show()
