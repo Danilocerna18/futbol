@@ -22,7 +22,6 @@ datos = datos.dropna(
     subset=["jugador_nombre", "receptor_nombre"]
 )
 
-#eliminamos los prints porque comprobamos que esta bien
 # Creamos un grafo dirigido
 grafo = nx.DiGraph()
 
@@ -42,21 +41,50 @@ print("Conexiones:", grafo.number_of_edges())
 import matplotlib.pyplot as plt
 
 # Dibujamos el grafo
-plt.figure(figsize=(8, 10))
+plt.figure(figsize=(10, 8))
 
-posiciones = nx.spring_layout(grafo, seed=42, k=3)
+# Definimos coordenadas fijas en la cancha (Formación 5-3-2)
+posiciones = {
+    # Portero
+    'Francisco Guillermo Ochoa Magaña': (0, -0.85),
+    
+    # Defensa
+    'Jesús Daniel Gallardo Vasconcelos': (-0.75, -0.45),
+    'Héctor Alfredo Moreno Herrera': (-0.35, -0.60),
+    'César Jasib Montes Castro': (0, -0.60),
+    'Néstor Alejandro Araújo Razo': (0.35, -0.60),
+    'Kevin Nahin Álvarez Campos': (0.75, -0.45),
+    
+    # Mediocampo
+    'Luis Gerardo Chávez Magallón': (-0.40, -0.10),
+    'Héctor Miguel Herrera López': (0, -0.15),
+    'José Andrés Guardado Hernández': (0.40, -0.10),
+    'Érick Gabriel Gutiérrez Galaviz': (0.45, -0.25),
+    
+    # Delanteros
+    'Ernesto Alexis Vega Rojas': (-0.35, 0.45),
+    'Hirving Rodrigo Lozano Bahena': (0.35, 0.45),
+    'Raúl Alonso Jiménez Rodríguez': (0, 0.75),
+    'Carlos Uriel Antuna Romero': (0.70, 0.30),
+    'Roberto Carlos Alvarado Hernández': (-0.70, 0.30)
+}
+
+# Acortamos los nombres para que quepan en los nodos
+etiquetas = {nodo: f"{nodo.split()[0]}\n{nodo.split()[-1]}" for nodo in grafo.nodes()}
 
 nx.draw(
     grafo,
     posiciones,
-    with_labels=True,
-    node_size=1200,
+    labels=etiquetas,
+    node_size=1800,
     node_color="lightgreen",
     arrows=True,
-    arrowsize=15,
-    width=[grafo[u][v]["peso"] / 2 for u, v in grafo.edges()],
-    font_size=8
+    arrowsize=12,
+    width=[grafo[u][v]["peso"] / 2.5 for u, v in grafo.edges()],
+    font_size=7,
+    font_weight="bold"
 )
 
-plt.title("México vs Argentina - Pases")
+plt.title("México vs Argentina - Pases (Alineación Táctica 5-3-2)")
+plt.axis("off")
 plt.show()
