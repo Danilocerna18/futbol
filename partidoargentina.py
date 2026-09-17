@@ -14,6 +14,7 @@ datos = datos[
     ]
 ]
 
+datos = datos[datos["oponente"] == "Argentina"]
 datos = datos[datos["resultado"] == "Complete"]
 
 # eliminaremos los pases que no tengan jugador o receptor
@@ -37,3 +38,19 @@ for _, fila in datos.iterrows():
 
 print("Jugadores:", grafo.number_of_nodes())
 print("Conexiones:", grafo.number_of_edges())
+
+import matplotlib.pyplot as plt
+
+# Dibujjamos el grafo
+posiciones = nx.spring_layout(grafo, seed=42, k=2)
+
+nx.draw(
+    grafo,
+    posiciones,
+    with_labels=True,
+    node_size=1500,
+    arrows=True,
+    width=[grafo[u][v]["peso"] / 2 for u, v in grafo.edges()]
+)
+
+plt.show()
