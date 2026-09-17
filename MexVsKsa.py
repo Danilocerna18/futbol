@@ -5,8 +5,6 @@ datos = pd.read_csv("pases_mexico.csv")
 
 datos = datos[
     [
-        "match_id",
-        "fecha",
         "oponente",
         "jugador_nombre",
         "receptor_nombre",
