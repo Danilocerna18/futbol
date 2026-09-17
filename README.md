@@ -18,12 +18,20 @@ En si, en el juego de Mexico contra Argentina estuvo bastante concentrado en def
 
 ![alt text](MexVsPol.png)
 
-Podemos ver que Hector Moreno tuvo una gran participacion en este partido, seguido de Cesar Montes y Luis Chavez, pero en mucho menor proporcion. Ochoa le realizo muchos pases a Moreno, haciendo una conexion muy fuerte, y solo con esto nos damos cuenta que en este partido Mexico tambien estaba jugando mucho en el area baja del campo nuevamente.
+Polonia en este mundial fue un equipo que se sostuvo mucho en sus atacantes, la idea de juego de este rival fue de confiar en su mejor jugador Robert Lewandowski intentando que en algún error del ataque de México dejaran libre a su jugador, exponiendo su arco para intentar marcar. Debido a esto, México pudo utilizar una formación más agresiva para atacar de 4-3-3 atacante, por lo que el grafo se ve un poco más disperso, no tan agresivo en defensa como el partido contra Argenina.
 
-Al observar, vemos que en el partido de Mexico contra Polonia el grafo muestra otra vez, al igual que contra Argentina, que la circulacion del balon estaba muy concentrada con los defensas y en el medio campo. Moreno tuvo muchas conexiones con jugadores de mediocampo como Edson Alvares y Luis Chavez, mostrando nuevamente una conducta donde Mexico utilizo principalmenet a sus defensores y mediocampistas para manetener la circulacion del balon y concentrandose en el juego desde la parte de atras, en comparacion con los jugadores de ataque que casi no tocan el balon.
+A pesar de esto el resultado del partido terminó en empate, pero lo interesante es que el grafo tuvo mayor concentracion en todo el campo, se ve que los pases efectuados fueron bastantes, fue un partido muy peleado para ambos equipos.
 
-El grafo representa un estilo de juego basado en la contruccion desde la sona de atras hacia el medio campo, al igual que contra Argentina.
+Podemos ver que Hector Moreno tuvo una gran participacion en este partido, seguido de Cesar Montes y Luis Chavez, pero en mucho menor proporcion. Ochoa le realizo muchos pases a Moreno, haciendo una conexion muy fuerte.
+
+Al observar, vemos que en el partido de Mexico contra Polonia el grafo muestra que la circulacion del balon estaba muy concentrada con los defensas y en el medio campo. Moreno tuvo muchas conexiones con jugadores de mediocampo como Edson Alvares y Luis Chavez, mostrando nuevamente una conducta donde Mexico utilizo principalmenet a sus defensores y mediocampistas para armar jugadas peligrosas.El grafo representa un estilo de juego basado en la contruccion desde la sona de atras hacia el medio campo.
 
 ## Interpretacion del partido Mexico vs Arabia analisis 
 
 ![alt text](MexVsKsa.png)
+
+Arabia Saudita vino de dar el golpe tras ganarle a Argentina y jugaban con una línea defensiva agresiva y una presión asfixiante e intensa en tres cuartos de cancha, con jugadores que parecieran no cansarse. No se encerraron atrás, adelantaron a sus defensas casi hasta el medio campo para achicar espacios y sofocar a Mexico.
+
+Debido a esto el cuadro de México se vió obligado a utilizar una formación de 4-1-2-3, para intentar deshacer el juego de Arabia para ganar por varios goles, ya que los necesitaban para clasificar, así que arriesgaron todo cambiando a una alineación ofensiva de 3 atacantes y un medio de creación libre.
+
+El grafo se ve más concentrado en la parte de los laterales, utilizando de apoyo su medio de creación, a esto se debe el peso en el jugador del medio, el cual efectuaba pases a los laterales para armar una jugada peligrosa junto con sus atacantes, rompiendo la línea defensiba que proponía Arabia Saudita.
