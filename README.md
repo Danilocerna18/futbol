@@ -48,3 +48,10 @@ Podemos ver que durante los tres partidos Mexico tuvo un estilo de juego basado 
 
 En conclusion, los tres grafos nos permiten observar que Mexico tuvo una circulacion del balon principalmente desde la zona defensiva hacia el medio campo. Los defensores tuvieron un papel fundamental en la construccion de las jugadas, mientras que los jugadores de ataque tuvieron una menor participacion en los pases. Esto nos permite interpretar que el juego de Mexico durante estos tres partidos estuvo basado principalmente en mantener y circular el balon desde atras antes de buscar avanzar hacia el ataque.
 Pero es importante mencionar que el grafo muestra la circulacion de los pases que fueron realizados con exito y las conexiones entre los jugadores, por lo que nos permite observar como se movia el balon entre ellos solo quienes completaban su pase, pero no representa por completo todas las acciones realizadas durante el partido, entonces nos da una idea como tal pero no nos dice toda la informacion de el partido.
+
+## estructura final
+
+Dirigido porque importa quien le pasa el balon a quien
+con peso porque el peso representa cuantas veces se completo el pase entre jugadores dirigido
+Solo pases completos para analizar la circulacion activa del balon por parte de mexico
+e hicimos un grafo por cada partido porque la manera de jugar va cambiando 
